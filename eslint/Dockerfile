@@ -1,4 +1,4 @@
-FROM donhcd/yarn-actions:tag-2.0.0
+FROM donhcd/yarn-actions:tag-2.0.0-node12
 
 LABEL "com.github.actions.name"="eslint"
 LABEL "com.github.actions.description"="Provides linting for TypeScript files with eslint"
